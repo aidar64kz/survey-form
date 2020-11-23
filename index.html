@@ -1,3 +1,5 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,15 +8,115 @@
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1 id="title"></h1>
-    <p id="description"></p>
-    <form id="survey-form">
-        <input type="text" id="name" required>
-        <input type="email" name="" id="email" required>
 
-    </form>
-</body>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Thank you for taking the time to improve the service</p>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">
+      Name
+    </label>
+    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+    </div>
+     <div class="form-group">
+      <label id="email-label" for="email">
+      E-mail
+    </label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your e-mail" required>
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">
+      Age<span class="clue">(optional)</span>
+    </label>
+    <input type="number" name="number" id="number" class="form-control" placeholder="Your age" min="18" max="99">
+    </div>
+    <div class="form-group">
+      <p>Which browser do you use?</p>
+      <select id="dropdown">
+        <option disabled selected value>List of browsers</option>
+        <option value="Chrome">Chrome</option>
+        <option value="Opera">Opera</option>
+        <option value="Mozilla">Mozilla</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p> Would you recommend service? </p>
+      <label>
+        <input type="radio"
+               name="user-recommend"
+               value="yes"
+               class="input-radio">Definetely
+      </label>
+          <label>
+        <input type="radio"
+               name="user-recommend"
+               value="maybe"
+               class="input-radio">Maybe
+      </label>
+          <label>
+        <input type="radio"
+               name="user-recommend"
+               value="no"
+               class="input-radio">No
+      </label>
+    </div>
+    <div class="form-group">
+      <p>Which programming languages do you know?<span class="clue">(Choose only if you are proficient)</span></p>
+      <label>
+        <input name="javascript"
+               type="checkbox"
+               value="javascript"
+               class="input-checkbox">Javascript
+      </label>
+      <label>
+        <input name="java"
+               type="checkbox"
+               value="java"
+               class="input-checkbox">Java
+      </label>
+      <label>
+        <input name="python"
+               type="checkbox"
+               value="python"
+               class="input-checkbox">Python
+      </label>
+      <label>
+        <input name="C++"
+               type="checkbox"
+               value="C++"
+               class="input-checkbox">C++
+      </label>
+      <label>
+        <input name="php"
+               type="checkbox"
+               value="php"
+               class="input-checkbox">PHP
+      </label>
+      <label>
+        <input name="c"
+               type="checkbox"
+               value="c"
+               class="input-checkbox">C
+      </label>
+    </div>
+    <div class="form-group">
+      <p>Write your feedback about the survey</p>
+      <textarea id="textarea" name="textarea" placeholder="Write your feedback here"></textarea>
+    </div>
+    <div class="form-group">
+     <button type="submit"
+            class="submit-button"
+             id="submit">Submmit</button>
+    </div>
+    
+    
+    
+  </form>
+    
+  </body>
 </html>
 
 
