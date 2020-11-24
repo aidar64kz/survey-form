@@ -1,3 +1,4 @@
+You can visit this link https://aidar64kz.github.io/survey-form/ to open
 # survey-form
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
@@ -34,3 +35,4 @@ User Story #14: Inside the form element, I can select several fields from a seri
 User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
+
