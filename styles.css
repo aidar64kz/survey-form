@@ -17,11 +17,7 @@ body {
 
 .container {
   width: 480px;
-<<<<<<< HEAD
   /* height: 1000px; */
-=======
-  height: 630px;
->>>>>>> main
   background: white;
   display: flex;
   flex-direction: column;
@@ -30,46 +26,23 @@ body {
   box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
 }
 
-<<<<<<< HEAD
 #description {
   margin-top: 10px;
   text-align: center;
   width: 85%;
 }
 
-=======
->>>>>>> main
 /* Form */
 form {
   width: 90%;
 }
 
-<<<<<<< HEAD
 label {
   position: relative;
   margin-top: 3px;
   bottom: 3px;
   display: flex;
   align-items: center;
-=======
-.form-group {
-  height: 65px;
-}
-
-.vsbl {
-  display: flex;
-  justify-content: space-between;
-}
-
-.fas,
-.far {
-  cursor: pointer;
-}
-
-label {
-  position: relative;
-  bottom: 3px;
->>>>>>> main
 }
 
 input {
@@ -83,7 +56,6 @@ input {
   transition: all 0.3s;
 }
 
-<<<<<<< HEAD
 .form-control {
   display: block;
   width: 100%;
@@ -117,8 +89,6 @@ input[type="radio" i] {
   resize: vertical;
 }
 
-=======
->>>>>>> main
 input:valid {
   border: 1px solid green;
 }
